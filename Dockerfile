@@ -13,7 +13,9 @@ WORKDIR /usr/app/src
 #COPY the remote file at working directory in container
 COPY my_first.py ./
 COPY var.py ./
-# Now the structure looks like this '/usr/app/src/test.py'
+# Now the structure looks like this 
+# '/usr/app/src/my_first.py'
+# '/usr/app/src/var.py'
 
 
 #CMD instruction should be used to run the software
