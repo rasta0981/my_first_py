@@ -1,7 +1,13 @@
-import var
-name=input(var.nametext)
-age=int(input(var.agetext))
-newage=(age + 1)
-birthyear=(2025-newage)
+""" My First Python script """
 
-print(f"Hello {name}, You will be {newage} at some point In 2025!\nYou were born in the year {birthyear}")
+__version__ = "3"
+__author__ = "@rasta0981 - Darren K."
+
+import var
+
+name = input(var.nametext)
+age = int(input(var.agetext))
+new_age = age + 1
+birth_year = 2025-new_age
+new_name = name.upper()
+print(f"Hello {new_name}\nYour age is {new_age}\nYou were born {birth_year}")
