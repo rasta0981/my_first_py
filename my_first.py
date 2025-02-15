@@ -1,6 +1,6 @@
 """ My First Python script """
 
-__version__ = "3"
+__version__ = "2"
 __author__ = "@rasta0981 - Darren K."
 
 import var
